@@ -50,7 +50,7 @@ public class BankingExcecute {
 			else if(Operation==2){
 				System.out.println("Enter your withdraw Amount : ");
 				double amt=s1.nextDouble();
-				a1.DepositeAmount(amt);
+				a1.WithdrawAmount(amt);
 			}
 			else if(Operation==3) {
 				a1.BalanceEnquiry();
@@ -83,7 +83,7 @@ public class BankingExcecute {
 			else if(Operation==2){
 				System.out.println("Enter your withdraw Amount : ");
 				double amt=s1.nextDouble();
-				a1.DepositeAmount(amt);
+				a1.WithdrawAmount(amt);
 			}
 			else if(Operation==3) {
 				a1.BalanceEnquiry();
